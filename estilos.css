@@ -1,0 +1,207 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0B1018;
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Encabezado */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: #111925;
+    border-bottom: 1px solid #283C54;
+}
+
+header h1 {
+    color: #3977F5;
+    font-family: Georgia, serif;
+    font-size: 36px;
+}
+
+nav a {
+    color: #B0BEC5;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+nav a:hover {
+    color: #64B5F6;
+}
+
+/* Presentación */
+
+.presentacion {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.presentacion h2 {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.presentacion p {
+    color: #B0BEC5;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Imagen de ARCAL */
+
+.presentacion img {
+    display: block;
+    width: 850px;
+    max-width: 90%;
+    margin: 35px auto;
+    border-radius: 25px;
+    border: 2px solid #283C54;
+    box-shadow: 0 0 30px #1565C033;
+}
+
+/* Botón */
+
+.boton {
+    display: inline-block;
+    background-color: #1565C0;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Características */
+
+.caracteristicas {
+    max-width: 800px;
+    margin: 20px auto 60px;
+    padding: 35px;
+    background-color: #202632;
+    border-radius: 20px;
+}
+
+.caracteristicas h2 {
+    color: #64B5F6;
+    margin-bottom: 20px;
+}
+
+.caracteristicas ul {
+    padding-left: 25px;
+}
+
+.caracteristicas li {
+    margin-bottom: 12px;
+    color: #CFD8DC;
+}
+
+/* Pie de página */
+
+footer {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #111925;
+    color: #B0BEC5;
+    border-top: 1px solid #283C54;
+}
+
+footer a {
+    color: #64B5F6;
+    text-decoration: none;
+}
+
+/* Diseño para celulares */
+
+@media (max-width: 600px) {
+
+    header {
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .presentacion h2 {
+        font-size: 28px;
+    }
+
+    .caracteristicas {
+        margin: 20px;
+        padding: 25px;
+    }
+}
+
+/* Política de privacidad */
+
+.privacidad {
+    max-width: 850px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #202632;
+    border-radius: 20px;
+}
+
+.privacidad h2 {
+    color: #64B5F6;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.privacidad .fecha {
+    color: #B0BEC5;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.privacidad h3 {
+    color: #64B5F6;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+.privacidad p {
+    color: #CFD8DC;
+    margin-bottom: 15px;
+}
+
+.privacidad a {
+    color: #64B5F6;
+    text-decoration: none;
+}
+
+.privacidad .volver {
+    display: inline-block;
+    background-color: #1565C0;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+@media (max-width: 600px) {
+    .privacidad {
+        margin: 20px;
+        padding: 25px;
+    }
+
+    .privacidad h2 {
+        font-size: 26px;
+    }
+}
